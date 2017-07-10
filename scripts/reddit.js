@@ -5,7 +5,7 @@
 function toggle_post(value) {
     // Remove margin on individual posts.
     // Fixes issues on /r/outoftheloop
-    var posts   = document.getElementsByClassName("thing");
+    var posts = document.getElementsByClassName("thing");
 
     for (var i=0; i<posts.length; i++) {
         posts[i].style.marginRight = value;
