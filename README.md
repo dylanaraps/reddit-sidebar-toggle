@@ -3,7 +3,7 @@
 A web extension to toggle the sidebar on reddit.com
 
 
-### Install the addon
+### Install the addon:
 
 
 **Chrome**
