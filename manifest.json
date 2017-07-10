@@ -5,12 +5,16 @@
     "description": "Toggle the sidebar on reddit.com",
 
     "permissions": [
-        "activeTab",
-        "contextMenus"
+        "activeTab"
     ],
 
     "icons": {
         "48": "icons/reddit-48.png"
+    },
+
+    "browser_action": {
+        "default_icon": "icons/reddit-48.png",
+        "default_title": "Reddit: Toggle Sidebar"
     },
 
     "background": {
