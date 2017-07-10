@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Reddit Sidebar Toggle",
-    "version": "1.0",
+    "version": "1.0.0",
     "description": "Toggle the sidebar on reddit.com",
 
     "permissions": [
