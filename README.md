@@ -10,6 +10,7 @@ A web extension to toggle the sidebar on reddit.com
 
 - [Chrome Web Store](https://chrome.google.com/webstore/detail/reddit-sidebar-toggle/haoffdjocncdbjehkpphfhdppbopmhnd)
 
+
 **Firefox**
 
-- Pending approval.
+- [Addons Mozilla](https://addons.mozilla.org/en-US/firefox/addon/reddit-sidebar-toggle/)
