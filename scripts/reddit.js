@@ -27,14 +27,16 @@ function main() {
             // !important needs to be used here since this class
             // can't be overidden otherwise.
             content.style.cssText = `margin-top: 20px !important;
-                                     margin-right: 15px !important;`;
+                                     margin-right: 15px !important;
+                                     padding-top: 0px !important`;
             content.style.border  = "none";
 
         } else {
             // Reset styles.
             sidebar.style.display = null;
-            content.style.margin  = null;
             content.style.border  = null;
+            content.style.margin  = null;
+            content.style.padding  = null;
             toggle_post(null);
         }
     }
