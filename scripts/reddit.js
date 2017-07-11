@@ -36,7 +36,7 @@ function main() {
             sidebar.style.display = null;
             content.style.border  = null;
             content.style.margin  = null;
-            content.style.padding  = null;
+            content.style.padding = null;
             toggle_post(null);
         }
     }
