@@ -20,15 +20,22 @@ function main() {
     if (sidebar) {
         var display = sidebar.style.display;
 
-        if (display == "none") {
-            sidebar.style.display = "block";
-            content.style.marginRight = null;
-            toggle_post(null);
+        if (display != "none") {
+            sidebar.style.display = "none";
+            toggle_post("15px");
+
+            // !important needs to be used here since this class
+            // can't be overidden otherwise.
+            content.style.cssText = `margin-top: 20px !important;
+                                     margin-right: 15px !important;`;
+            content.style.border  = "none";
 
         } else {
-            sidebar.style.display = "none";
-            content.style.marginRight = "15px";
-            toggle_post("15px");
+            // Reset styles.
+            sidebar.style.display = null;
+            content.style.margin  = null;
+            content.style.border  = null;
+            toggle_post(null);
         }
     }
 }
