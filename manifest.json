@@ -5,7 +5,9 @@
     "description": "Toggle the sidebar on reddit.com",
 
     "permissions": [
-        "activeTab"
+        "activeTab",
+        "tabs",
+        "<all_urls>"
     ],
 
     "icons": {
