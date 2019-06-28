@@ -31,6 +31,7 @@ function main() {
                                      padding-top: 0px !important`;
             content.style.border  = "none";
 
+
         } else {
             // Reset styles.
             sidebar.style.display = null;
