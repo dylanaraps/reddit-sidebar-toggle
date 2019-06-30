@@ -20,6 +20,7 @@ function main() {
     if (sidebar) {
         var display = sidebar.style.display;
 
+
         if (display != "none") {
             sidebar.style.display = "none";
             toggle_post("15px");
@@ -32,7 +33,7 @@ function main() {
             content.style.border  = "none";
 
 
-        } else {
+        } else if (!hidden) {
             // Reset styles.
             sidebar.style.display = null;
             content.style.border  = null;

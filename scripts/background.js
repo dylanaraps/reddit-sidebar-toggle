@@ -7,7 +7,6 @@ var hidden = false;
 
 chrome.browserAction.onClicked.addListener(function() {
     hidden = !hidden;
-    console.log(hidden)
 
     chrome.tabs.executeScript({
         file: "scripts/reddit.js"
