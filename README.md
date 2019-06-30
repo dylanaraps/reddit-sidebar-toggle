@@ -2,15 +2,6 @@
 
 A web extension to toggle the sidebar on reddit.com
 
+Forked from https://github.com/dylanaraps/reddit-sidebar-toggle  
 
-### Install the addon:
-
-
-**Chrome**
-
-- [Chrome Web Store](https://chrome.google.com/webstore/detail/reddit-sidebar-toggle/haoffdjocncdbjehkpphfhdppbopmhnd)
-
-
-**Firefox**
-
-- [Addons Mozilla](https://addons.mozilla.org/en-US/firefox/addon/reddit-sidebar-toggle/)
+This fork has added support for remembering toggle option between page loads.
