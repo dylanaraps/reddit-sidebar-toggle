@@ -3,7 +3,7 @@
 /* eslint-disable no-undef */
 
 
-var hidden = false;
+var hidden = true;
 
 chrome.browserAction.onClicked.addListener(function() {
     hidden = !hidden;
